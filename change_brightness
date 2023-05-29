@@ -1,0 +1,2 @@
+#!/bin/sh
+echo 255 > /sys/devices/platform/s3c24xx-pwm.1/pwm-backlight.0/backlight/pwm-backlight.0/brightness

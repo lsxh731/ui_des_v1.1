@@ -1,0 +1,8 @@
+#!/bin/bash
+/opt/qt-4.7.1/bin/qmake
+make distclean
+rm -rf Makefile*
+rm -rf *.pro.*
+rm -rf object*
+rm -rf debug/
+rm -rf release/
